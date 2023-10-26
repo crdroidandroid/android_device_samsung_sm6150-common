@@ -31,6 +31,12 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 PRODUCT_PACKAGES += \
     fs_config_files \
 
+# ANT+
+PRODUCT_PACKAGES += \
+    AntHalService-Soong \
+    com.dsi.ant.antradio_library \
+    com.dsi.ant@1.0.vendor \
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
