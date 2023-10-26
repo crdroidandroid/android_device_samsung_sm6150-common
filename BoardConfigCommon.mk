@@ -83,5 +83,8 @@ BOARD_USES_SYSTEM_OTHER_ODEX := true
 # DPM
 BOARD_USES_DPM := true
 
+# DRM
+TARGET_ENABLE_MEDIADRM_64 := true
+
 # Get non-open-source specific aspects
 include vendor/samsung/sm6150-common/BoardConfigVendor.mk
