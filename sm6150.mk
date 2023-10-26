@@ -129,6 +129,7 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    fstab.qcom_ramdisk \
 
 # Recovery
 AB_OTA_UPDATER := false
