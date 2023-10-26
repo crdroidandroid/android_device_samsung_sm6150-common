@@ -24,6 +24,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 COMMON_PATH := device/samsung/sm6150-common
 
+PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_TARGET_VNDK_VERSION := 30
 
 # AID/fs configs
