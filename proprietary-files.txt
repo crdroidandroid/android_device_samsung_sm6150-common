@@ -678,7 +678,9 @@ vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
 # Display (HDR)
 vendor/lib/libhdr_tm.so
+vendor/lib/libsdm-colormgr-algo.so
 vendor/lib64/libhdr_tm.so
+vendor/lib64/libsdm-colormgr-algo.so
 
 # Display (SDM)
 vendor/lib/libdisplayqos.so
