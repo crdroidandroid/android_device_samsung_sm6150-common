@@ -224,9 +224,6 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
 
 # Overlays
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(COMMON_PATH)/overlay-lineage/lineage-sdk \
-
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGE_OVERLAYS += \
