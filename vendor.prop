@@ -134,6 +134,9 @@ drm.service.enabled=true
 # FM
 vendor.hw.fm.init=0
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # FRP
 ro.frp.pst=/dev/block/persistent
 
