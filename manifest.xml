@@ -1,30 +1,4 @@
-<!--
-    Input:
-        manifest_target_level_Q.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        skeymaster_v4_manifest.xml
-        manifest.xml
-        radio_manifest_ds.xml
-        radio_manifest_ds.xml
-        manifest_chip.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
-        manifest.xml
--->
-<manifest version="2.0" type="device" target-level="4">
+<manifest version="2.0" type="device" target-level="3">
     <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
@@ -551,56 +525,6 @@
         <fqname>@2.0::ISehChannel/imsd</fqname>
         <fqname>@2.0::ISehChannel/imsd2</fqname>
     </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.samsung.hardware.security.drk</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>ISehDrk</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.0::ISehDrk/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.samsung.hardware.security.sem</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISehSem</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISehSem/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.samsung.hardware.security.skpm</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISehSkpm</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISehSkpm/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.security.widevine.keyprov</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISehWidevineKeyProvisioning</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISehWidevineKeyProvisioning/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.security.wsm</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISehWsm</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISehWsm/default</fqname>
-    </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.snap</name>
         <transport>hwbinder</transport>
@@ -611,57 +535,4 @@
         </interface>
         <fqname>@1.2::ISehSnap/default</fqname>
     </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.sysinput</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>ISehSysInputDev</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.2::ISehSysInputDev/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.tlc.payment</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISehTlcPayment</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISehTlcPayment/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.tlc.ucm</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>ISehUcm</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.0::ISehUcm/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.vibrator</name>
-        <transport>hwbinder</transport>
-        <version>2.2</version>
-        <interface>
-            <name>ISehVibrator</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.2::ISehVibrator/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.wifi.supplicant</name>
-        <transport>hwbinder</transport>
-        <version>3.1</version>
-        <interface>
-            <name>ISehSupplicant</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@3.1::ISehSupplicant/default</fqname>
-    </hal>
-    <sepolicy>
-        <version>30.0</version>
-    </sepolicy>
 </manifest>
