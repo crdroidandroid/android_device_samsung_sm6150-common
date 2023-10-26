@@ -177,5 +177,10 @@ TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_SYSTEM_EXT := system/system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+QCOM_BOARD_PLATFORMS += sm6150
+TARGET_BOARD_PLATFORM := sm6150
+
 # Get non-open-source specific aspects
 include vendor/samsung/sm6150-common/BoardConfigVendor.mk
