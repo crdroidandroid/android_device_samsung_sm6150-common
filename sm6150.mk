@@ -22,6 +22,10 @@ COMMON_PATH := device/samsung/sm6150-common
 
 PRODUCT_TARGET_VNDK_VERSION := 30
 
+# AID/fs configs
+PRODUCT_PACKAGES += \
+    fs_config_files \
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \

@@ -209,5 +209,8 @@ BOARD_PROVIDES_LIBRIL := true
 ENABLE_VENDOR_RIL_SERVICE := true
 SIM_COUNT := 2
 
+# Rootfs
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+
 # Get non-open-source specific aspects
 include vendor/samsung/sm6150-common/BoardConfigVendor.mk
