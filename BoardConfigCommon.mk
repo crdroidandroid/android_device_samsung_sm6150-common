@@ -114,5 +114,12 @@ TARGET_USES_ION := true
 USE_OPENGL_RENDERER := true
 VSYNC_EVENT_PHASE_OFFSET_NS := 2000000
 
+# HIDL
+DEVICE_MANIFEST_FILE := \
+    $(COMMON_PATH)/manifest.xml
+
+DEVICE_MATRIX_FILE := \
+    $(COMMON_PATH)/compatibility_matrix.xml
+
 # Get non-open-source specific aspects
 include vendor/samsung/sm6150-common/BoardConfigVendor.mk
