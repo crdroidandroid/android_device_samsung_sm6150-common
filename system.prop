@@ -1,0 +1,7 @@
+# Netflix
+ro.netflix.bsp_rev=Q6150-17263-1
+
+# RIL
+persist.sys.softsim.netmode=4g
+persist.sys.softsim.status=default,default
+persist.sys.softsim.type=default
