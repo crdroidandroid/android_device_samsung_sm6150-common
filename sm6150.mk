@@ -127,6 +127,7 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
+    aptxalsOverlay \
     audio.bluetooth.default \
     com.qualcomm.qti.bluetooth_audio@1.0 \
     com.qualcomm.qti.bluetooth_audio@1.0.vendor \
