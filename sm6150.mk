@@ -439,6 +439,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # Performance
 PRODUCT_PACKAGES += \
+    libqti-perfd-client \
     vendor.qti.hardware.perf@2.2 \
     vendor.qti.hardware.perf@2.2.vendor \
 
