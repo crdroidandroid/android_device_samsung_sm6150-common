@@ -621,8 +621,7 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.impl \
-    vendor.qti.hardware.vibrator.service \
+    android.hardware.vibrator-service.sm6150 \
 
 # WiFi
 PRODUCT_PACKAGES += \
