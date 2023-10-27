@@ -1,1 +1,3 @@
+attribute r_fs_type;
+
 attribute rw_fs_type;
