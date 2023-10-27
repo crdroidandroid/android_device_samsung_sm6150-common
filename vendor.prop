@@ -86,6 +86,9 @@ ro.charger.enable_suspend=true
 ro.soc.manufacturer=QTI
 ro.soc.model=SM7150
 
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
+
 # Dalvik
 dalvik.vm.heapminfree=2m
 dalvik.vm.lockprof.threshold=500
