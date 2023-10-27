@@ -487,6 +487,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
 
+# QMI
+TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
+
 # QTI
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/hyper/config_chipset.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_chipset.json \
