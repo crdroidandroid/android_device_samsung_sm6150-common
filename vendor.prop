@@ -91,7 +91,6 @@ vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.cne.feature=0
 
 # Camera
-camera.aux.packagelist=com.android.camera
 camera.disable_zsl_mode=1
 
 # Charger
