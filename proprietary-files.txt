@@ -996,9 +996,6 @@ vendor/lib64/libperipheral_client.so
 bin/lpm
 lib64/libmaet.so
 lib64/libsxqk_skia.so
-vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
-vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
-vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so
 
 # Qdutils
 system_ext/lib/vendor.qti.hardware.qdutils_disp@1.0.so
