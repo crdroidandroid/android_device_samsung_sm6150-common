@@ -387,12 +387,6 @@ vendor/firmware/apnv11.bin
 lib/libFacePreProcessing.camera.samsung.so:vendor/lib/libFacePreProcessing.camera.samsung.so
 lib64/libFacePreProcessing.camera.samsung.so:vendor/lib64/libFacePreProcessing.camera.samsung.so
 lib64/libFacialStickerEngine.arcsoft.so:vendor/lib64/libFacialStickerEngine.arcsoft.so
-vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service
-vendor/bin/hw/vendor.samsung.hardware.snap@1.2-service
-vendor/bin/snap_utility_64
-vendor/etc/init/snap_utility.rc
-vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.snap@1.2-service.rc
 vendor/lib/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib/camera/components/com.qti.eisv2.so
 vendor/lib/camera/components/com.qti.eisv3.so
@@ -464,8 +458,6 @@ vendor/lib/camera/uw_dual_calibration.bin
 vendor/lib/camera/w_dual_calibration.bin
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.samsung.chi.override.so
-vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
-vendor/lib/hw/vendor.samsung.hardware.snap@1.2-impl.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/android.hardware.camera.provider@2.5-legacy.so
 vendor/lib/camera.device@1.0-impl.so
@@ -513,12 +505,6 @@ vendor/lib/libuniplugin.so
 vendor/lib/libvdis_core.so
 vendor/lib/libvdis_interface.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib/vendor.samsung.hardware.camera.device@5.0.so
-vendor/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so
-vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so
-vendor/lib/vendor.samsung.hardware.snap@1.0.so
-vendor/lib/vendor.samsung.hardware.snap@1.1.so
-vendor/lib/vendor.samsung.hardware.snap@1.2.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
@@ -577,8 +563,6 @@ vendor/lib64/camera/com.samsung.tuned.sony_imx616.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.samsung.chi.override.so
-vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
-vendor/lib64/hw/vendor.samsung.hardware.snap@1.2-impl.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/android.hardware.camera.provider@2.5-legacy.so
 vendor/lib64/camera.device@1.0-impl.so
@@ -636,12 +620,6 @@ vendor/lib64/libuniplugin.so
 vendor/lib64/libvdis_core.so
 vendor/lib64/libvdis_interface.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so
-vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so
-vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so
-vendor/lib64/vendor.samsung.hardware.snap@1.0.so
-vendor/lib64/vendor.samsung.hardware.snap@1.1.so
-vendor/lib64/vendor.samsung.hardware.snap@1.2.so
 
 # Camera (Firmware)
 vendor/firmware/CAMERA_ICP.elf

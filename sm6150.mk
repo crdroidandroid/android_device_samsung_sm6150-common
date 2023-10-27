@@ -143,6 +143,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.device@2.0.vendor \
     android.frameworks.cameraservice.service@2.1.vendor \
     android.hardware.camera.provider@2.5-impl \
+    android.hardware.camera.provider@2.6-service.sm6150 \
     android.hardware.camera.provider@2.7 \
     android.hardware.camera.provider@2.7.vendor \
     android.hardware.camera.device@3.7 \
