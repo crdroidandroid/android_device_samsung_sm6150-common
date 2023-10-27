@@ -22,9 +22,6 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 COMMON_PATH := device/samsung/sm6150-common
 
-# 64 Bit
-TARGET_USES_64_BIT_BINDER := true
-
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
