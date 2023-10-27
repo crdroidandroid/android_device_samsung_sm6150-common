@@ -490,6 +490,9 @@ PRODUCT_COPY_FILES += \
 # QMI
 TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 
+PRODUCT_PACKAGES += \
+    libjson \
+
 # QTI
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/hyper/config_chipset.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_chipset.json \
