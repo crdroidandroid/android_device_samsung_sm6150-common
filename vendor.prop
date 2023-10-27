@@ -190,7 +190,6 @@ ro.vendor.qti.va_aosp.support=1
 
 # RIL
 keyguard.no_require_sim=true
-persist.radio.multisim.config=dsds
 persist.vendor.data.mode=concurrent
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.atfwd.start=true
@@ -204,8 +203,6 @@ ro.vendor.epdg.support=true
 ro.vendor.sec.radio.def_network=9
 ro.vendor.use_data_netmgrd=false
 telephony.lteOnCdmaDevice=1
-vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
-vendor.sec.rild.libpath2=/vendor/lib64/libsec-ril-dsds.so
 
 # USB
 vendor.usb.controller=a600000.dwc3
