@@ -148,6 +148,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset 
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/samsung/sm6150
+TARGET_KERNEL_VERSION := 4.14
 
 # Keymaster
 TARGET_KEYMASTER_VARIANT := samsung
@@ -250,6 +251,9 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
 
 # Treble
 BOARD_VNDK_VERSION := current
+
+# USB
+TARGET_USES_USB_GADGET_HAL := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
