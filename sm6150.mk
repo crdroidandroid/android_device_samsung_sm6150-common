@@ -407,6 +407,23 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     $(COMMON_PATH)/rootdir/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
 
+# OMX
+PRODUCT_PACKAGES += \
+    libc2dcolorconvert \
+    libmm-omxcore \
+    libOmxAacEnc \
+    libOmxAmrEnc \
+    libOmxCore \
+    libOmxEvrcEnc \
+    libOmxG711Enc \
+    libOmxQcelp13Enc \
+    libOmxVdec \
+    libOmxVenc \
+    libOmxVidcCommon \
+    libstagefright_softomx_plugin.vendor \
+    libstagefright_softomx.vendor \
+    libstagefrighthw \
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
