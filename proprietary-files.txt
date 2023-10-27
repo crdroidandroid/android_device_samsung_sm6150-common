@@ -1133,8 +1133,8 @@ vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 -vendor/lib64/libril.so
 vendor/lib64/librilqmiservices-ext.so
-vendor/lib64/libsec-ril-dsds.so
-vendor/lib64/libsec-ril.so
+vendor/lib64/libsec-ril-dsds.so|7aeeccbca3730b4d9cb9fba6b06c49dfe7a2052f
+vendor/lib64/libsec-ril.so|94bb3426a636263c4daf45e633e8061232c30954
 vendor/lib64/libsec_semRil.so
 vendor/lib64/libsecril-client.so
 vendor/lib64/libvkmanager_vendor.so
