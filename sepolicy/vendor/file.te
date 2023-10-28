@@ -65,7 +65,6 @@ type spu_file, fs_type;
 allow spu_file labeledfs:filesystem associate;
 
 # SysFS
-type sysfs_battery, sysfs_type, r_fs_type, fs_type;
 type sysfs_camera, sysfs_type, r_fs_type, fs_type;
 type sysfs_fingerprint, sysfs_type, r_fs_type, fs_type;
 type sysfs_fpc, sysfs_type, r_fs_type, fs_type;
