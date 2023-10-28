@@ -21,7 +21,11 @@ LOCAL_MODULE       := fstab.qcom
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_ETC)
 LOCAL_MODULE_TAGS  := optional
+ifeq ($(PRODUCT_USE_DYNAMIC_PARTITIONS),true)
+LOCAL_SRC_FILES    := vendor/etc/fstab_dynamic.qcom
+else
 LOCAL_SRC_FILES    := vendor/etc/fstab.qcom
+endif
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -30,7 +34,11 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH  := $(TARGET_RAMDISK_OUT)
 LOCAL_MODULE_STEM  := fstab.qcom
 LOCAL_MODULE_TAGS  := optional
+ifeq ($(PRODUCT_USE_DYNAMIC_PARTITIONS),true)
+LOCAL_SRC_FILES    := vendor/etc/fstab_dynamic.qcom
+else
 LOCAL_SRC_FILES    := vendor/etc/fstab.qcom
+endif
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
