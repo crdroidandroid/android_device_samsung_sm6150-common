@@ -112,14 +112,13 @@ dalvik.vm.heapstartsize=8m
 dalvik.vm.heaptargetutilization=0.75
 
 # Display
+debug.sf.disable_backpressure=1
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_advanced_sf_phase_offset=1
-debug.sf.enable_gl_backpressure=1
 debug.sf.early_app_phase_offset_ns=100000
 debug.sf.early_phase_offset_ns=100000
 debug.sf.early_gl_app_phase_offset_ns=100000
 debug.sf.early_gl_phase_offset_ns=100000
-debug.sf.enable_gl_backpressure=1
 debug.sf.high_fps_late_app_phase_offset_ns=100000
 debug.sf.high_fps_early_gl_phase_offset_ns=100000
 debug.sf.high_fps_early_phase_offset_ns=100000
