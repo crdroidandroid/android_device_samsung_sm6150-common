@@ -41,9 +41,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
 
-# APEX
-PRODUCT_COMPRESSED_APEX := false
-
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service \
