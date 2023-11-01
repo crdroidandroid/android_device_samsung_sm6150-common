@@ -527,6 +527,12 @@ vendor/lib64/liblearningmodule.so
 vendor/lib64/libmeters.so
 vendor/lib64/libreffeature.so
 
+# Media - From a71naxx-user 11 RP1A.200720.012 A715FXXS8BVC2 release-keys
+vendor/bin/hw/vendor.qti.media.c2@1.0-service|711fc86b6a7768ba844155b61debdda4e291767e
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
+vendor/lib/libqcodec2.so|d799248294af4cf923f851111dc3b77f70622edc
+vendor/lib64/libqcodec2.so|4253b248baf778fd6e87fdc1b6c0403a92edc401
+
 # Neural Networks
 vendor/bin/npu_launcher
 vendor/lib/libhta_hexagon_runtime.so
