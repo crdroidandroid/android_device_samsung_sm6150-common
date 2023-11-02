@@ -450,16 +450,6 @@ vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
-# NFC
-vendor/bin/hw/nxp.android.hardware.nfc@1.1-service
-vendor/etc/init/init.nfc.samsung.rc
-vendor/etc/init/nxp.android.hardware.nfc@1.1-service.rc
-vendor/lib64/nfc_nci_nxp.so
-vendor/lib64/vendor.nxp.nxpnfc@1.1.so
-
-# NFC (Firmware)
-vendor/firmware/nfc/libpn553_fw.so
-
 # OMX
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
