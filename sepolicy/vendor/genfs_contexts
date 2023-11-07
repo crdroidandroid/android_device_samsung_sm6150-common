@@ -30,6 +30,12 @@ genfscon sysfs /devices/platform/soc/soc:qcom,cpu6-cpu-l3-lat/devfreq/soc:qcom,c
 
 # DT2W
 genfscon sysfs /devices/platform/soc/88c000.qcom,qup_uart/wakeup/                                  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-1/1-0048/input/                                u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-1/1-0048/input/input2                          u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-1/1-0048/input/input3                          u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-1/1-0048/input/input4                          u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-1/1-0048/wakeup/                               u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-23/23-0049/wakeup/                             u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/misc/msm_mp3/wakeup28                                              u:object_r:sysfs_wakeup:s0
 
 # Fingerprint
@@ -84,6 +90,7 @@ genfscon sysfs /class/sec/tsp                                                   
 genfscon sysfs /devices/virtual/lcd/panel                                                          u:object_r:sysfs_lcd_writable:s0
 genfscon sysfs /devices/virtual/sec/sec_key                                                        u:object_r:sysfs_sec_key:s0
 genfscon sysfs /devices/virtual/sec/tsp                                                            u:object_r:sysfs_sec_touchscreen:s0
+genfscon sysfs /devices/virtual/sec/tsp/input/                                                     u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/tsp/cmd                                                        u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/tsp/prox_power_off                                             u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/tsp/input/enabled                                              u:object_r:sysfs_touchscreen_writable:s0
