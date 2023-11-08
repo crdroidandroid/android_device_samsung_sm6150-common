@@ -79,6 +79,12 @@ TARGET_NO_RPC := true
 USE_CAMERA_STUB := false
 USE_DEVICE_SPECIFIC_CAMERA := true
 
+SOONG_CONFIG_NAMESPACES += samsung_sm6150CameraVars
+SOONG_CONFIG_samsung_sm6150CameraVars += \
+    samsung_sm6150_model
+
+SOONG_CONFIG_samsung_sm6150CameraVars_samsung_sm6150_model := $(TARGET_DEVICE)
+
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
