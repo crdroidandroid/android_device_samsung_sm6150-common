@@ -82,6 +82,7 @@ persist.vendor.qcom.bluetooth.scram.enabled=true
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=false
 ro.vendor.bluetooth.wipower=false
+ro.vendor.bt.bdaddr_path=/mnt/vendor/efs/bluetooth/bt_addr
 
 # Bluetooth SoC
 persist.vendor.qcom.bluetooth.soc=cherokee
