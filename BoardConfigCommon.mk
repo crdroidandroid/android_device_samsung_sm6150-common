@@ -247,6 +247,7 @@ TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 # Recovery
 BOARD_HAS_DOWNLOAD_MODE := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
+BOARD_USES_FULL_RECOVERY_IMAGE := true
 TARGET_NO_RECOVERY := false
 ifeq ($(strip $(PRODUCT_USE_DYNAMIC_PARTITIONS)),true)
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/vendor/etc/fstab_dynamic.qcom
