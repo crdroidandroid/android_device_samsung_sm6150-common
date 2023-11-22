@@ -241,9 +241,9 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_USES_FULL_RECOVERY_IMAGE := true
 TARGET_NO_RECOVERY := false
 ifeq ($(strip $(PRODUCT_USE_DYNAMIC_PARTITIONS)),true)
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/vendor/etc/fstab_dynamic.qcom
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/recovery/root/fstab_dynamic.qcom
 else
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/vendor/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/recovery/root/fstab.qcom
 endif
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TARGET_USERIMAGES_SPARSE_F2FS_DISABLED := false
