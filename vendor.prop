@@ -243,6 +243,10 @@ vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=0
 vendor.usb.use_gadget_hal=0
 
+# Vibrator
+ro.vendor.vibrator_hal.click_duration=80
+ro.vendor.vibrator_hal.tick_duration=40
+
 # WiFi
 wifi.aware.interface=wifi-aware0
 
