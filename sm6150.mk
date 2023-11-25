@@ -611,7 +611,7 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.sm6150 \
+    android.hardware.vibrator-service.samsung \
 
 # WiFi
 PRODUCT_PACKAGES += \
