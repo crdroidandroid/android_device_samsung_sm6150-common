@@ -619,6 +619,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     hostapd \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl \
     libwifi-hal-qcom \
     libwpa_client \
     TetheringConfigOverlay \
