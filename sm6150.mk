@@ -621,6 +621,7 @@ PRODUCT_PACKAGES += \
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
+    ConnectivityOverlay \
     hostapd \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
