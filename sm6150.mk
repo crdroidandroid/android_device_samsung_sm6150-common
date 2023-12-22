@@ -634,6 +634,7 @@ PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
     libwifi-hal-qcom \
     libwpa_client \
+    SoftapOverlay \
     TetheringConfigOverlay \
     WifiOverlay \
     wpa_supplicant \
