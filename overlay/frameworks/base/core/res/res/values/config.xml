@@ -35,6 +35,10 @@
          The user is forbidden from setting the brightness below this level. -->
     <item name="config_screenBrightnessSettingMinimum" format="float" type="dimen">1.0</item>
 
+    <!-- Allow the gesture to double tap the power button twice to start the camera while the device
+         is non-interactive. -->
+    <bool name="config_cameraDoubleTapPowerGestureEnabled">false</bool>
+
     <!-- Array of desired screen brightness in nits corresponding to the lux values
          in the config_autoBrightnessLevels array. As with config_screenBrightnessMinimumNits and
          config_screenBrightnessMaximumNits, the display brightness is defined as the measured
