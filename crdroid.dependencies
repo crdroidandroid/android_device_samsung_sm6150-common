@@ -10,6 +10,6 @@
   {
     "repository": "TheMuppets/proprietary_vendor_samsung_sm6150-common",
     "target_path": "vendor/samsung/sm6150-common",
-    "branch": "lineage-21.0"
+    "branch": "lineage-21"
   }
 ]
